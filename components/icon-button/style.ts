@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
     iconButton: {
         display: "flex",
         flexDirection: "row",
-        backgroundColor: "#60d4ea",
+        backgroundColor: "#008500",
         height: "100%", 
         width: "auto",
         paddingHorizontal: 10,
@@ -13,6 +13,11 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderRadius: 5,
         maxHeight: 50
+    },
+    iconButtonView: {
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center"
     },
     iconButtonText: {
         marginLeft: 5

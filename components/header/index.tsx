@@ -10,7 +10,7 @@ interface IProps {
 const Header: FC<IProps> = ({ statusBarHeight }) => {
     return (
         <View style={[ styles.header, {  marginTop: statusBarHeight } ]}>
-            <Text style={styles.headerTitle}>ByteSync NYTDL</Text>
+            <Text style={styles.headerTitle}>ByteSync NYtdl</Text>
         </View>
     )
 }

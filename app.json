@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "ByteSync - Native YTDL",
-    "slug": "ByteSync-NYTDL",
-    "version": "1.0.0",
+    "name": "ByteSync - Native Ytdl",
+    "slug": "ByteSync-NYtdl",
+    "version": "0.1.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#343436"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,9 +20,10 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#343436"
       },
-      "package": "com.marcuth.bytesyncnativeytdl"
+      "package": "com.marcuth.bytesyncnativeytdl",
+      "permissions": ["android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE", "MEDIA_LIBRARY"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
